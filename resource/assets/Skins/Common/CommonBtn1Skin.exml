@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="CommonBtn1Skin" states="up,down,disabled" minHeight="50" minWidth="100" currentState="up" xmlns:e="http://ns.egret.com/eui">
+    <e:Image width="100%" height="100%" alpha.disabled="0.5"
+            
+             source="commonBtn_png" scale9Grid="21,12,31,7" source.down="commonBtn_png" source.disabled="commonBtnDisable_png"/>
+    <e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8"
+             size="20"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" text="按钮标签" left.down="8" right.down="8" top.down="10" bottom.down="6"/>
+</e:Skin>

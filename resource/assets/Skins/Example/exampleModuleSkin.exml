@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="exampleModuleSkin" width="480" height="900" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="exampleBg_jpg" y="0" horizontalCenter="-1" anchorOffsetY="0" height="900" anchorOffsetX="0" width="482"/>
+	<e:Button id="exml_returnBtn" label="返回" y="24" skinName="CommonBtn1Skin" x="47"/>
+	<e:Button id="exml_playBgMusicBtn" label="播放背景音乐" y="109" skinName="CommonBtn1Skin" x="47"/>
+	<e:Button id="exml_stopBgMusicBtn" label="停止背景音乐" y="193" skinName="CommonBtn1Skin" x="47"/>
+	<e:Button id="exml_playSoundEffectBtn" label="播放音效" y="278" skinName="CommonBtn1Skin" x="47"/>
+	<e:Button id="exml_dataBtn" label="测试事件机制:0" y="360" skinName="CommonBtn1Skin" x="47" width="200"/>
+	<e:Label id="exml_label" text="Label" x="240" y="49" anchorOffsetX="0" width="218" size="24" anchorOffsetY="0" height="85"/>
+	<e:Scroller id="exml_scroller" width="460" height="420" x="10" y="468" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="exml_list" width="100%" height="100%" x="0" y="2"/>
+	</e:Scroller>
+	
+</e:Skin>
